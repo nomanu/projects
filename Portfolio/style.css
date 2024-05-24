@@ -1,0 +1,419 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 75px;
+    opacity: .8;
+    cursor: pointer;
+
+}
+
+h3:hover {
+    background-color: crimson;
+    transition: 0.5s;
+}
+
+#nav h3 {
+    font-size: 22px;
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+    font-weight: 500;
+    color: white;
+}
+
+#nav h3:hover {
+    background-color: rgb(56, 51, 51);
+    transition: 0.5s;
+}
+
+#heading {
+    width: 100%;
+    height: 55%;
+    padding: 50px 55px;
+
+
+}
+
+#heading h2 {
+    margin-bottom: 8px;
+    color: crimson;
+    font-size: 30px;
+
+
+}
+
+#heading h1 {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 100px;
+    letter-spacing: -3px;
+    font-weight: 600;
+    color: rgb(34, 32, 32);
+}
+
+#down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#down h4 {
+
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: 600;
+    opacity: .9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#down h4 i {
+    font-size: 25px;
+
+}
+
+#hero {
+    width: 100%;
+    height: 100%;
+
+}
+
+#hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 15px;
+
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+    margin: 50px 0;
+    padding: 0 50px;
+
+}
+
+#h1left {
+    width: 53%;
+    height: 100%;
+
+
+}
+
+#h1left h1 {
+    font-size: 75px;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(34, 32, 32);
+}
+
+#right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+    padding: 0 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 2px solid black;
+}
+
+#right-part h4 {
+    color: rgb(49, 48, 48);
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 170px;
+    font-size: 25px;
+
+}
+
+#icon-1,
+#icon-2,
+#icon-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(34, 32, 32);
+}
+
+#icon-1 img {
+
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    background-color: white;
+}
+
+#icon-2 img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+}
+
+#icon-3 img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+}
+
+#exp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+    border-top: 2px solid black;
+}
+
+#left {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 45px;
+    width: 35%;
+    height: 95%;
+
+}
+
+#left h1 {
+    font-size: 28px;
+    color: rgb(34, 32, 32);
+}
+
+#left i {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(46, 44, 44);
+}
+
+#right {
+
+    width: 75%;
+    height: 100%;
+    border-left: 2px solid black;
+
+}
+
+#right-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid black;
+    padding: 30px 50px;
+
+}
+
+#right-top-left {
+    width: 50%;
+    height: 100%;
+
+}
+
+#right-top-left h1 {
+    color: rgb(53, 50, 50);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#right-top-left p {
+    font-size: 22px;
+    line-height: 35px;
+    opacity: .8;
+}
+
+
+
+#right-top-right {
+    width: 50%;
+    height: 100%;
+    padding-left: 35px;
+    border-left: 2px solid black;
+}
+
+#right-top-right h1 {
+    color: rgb(53, 50, 50);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#right-top-right p {
+    font-size: 22px;
+    line-height: 34px;
+    opacity: .8;
+}
+
+#right-btm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid black;
+    padding: 30px 50px;
+
+}
+
+#btm-left {
+    width: 50%;
+    height: 100%;
+
+}
+
+#btm-left h1 {
+    color: rgb(53, 50, 50);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#btm-left p {
+    font-size: 22px;
+    line-height: 35px;
+    opacity: .8;
+}
+
+#btm-right h1 {
+    color: rgb(53, 50, 50);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#btm-right {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+#btm-right {
+    width: 50%;
+    height: 100%;
+    padding-left: 35px;
+    border-left: 2px solid black;
+}
+
+#btm-right p {
+    font-size: 22px;
+    line-height: 35px;
+    opacity: .8;
+}
+
+#project {
+    width: 100%;
+    height: 70%;
+    margin: 50px 0;
+}
+
+#project h1 {
+    cursor: pointer;
+    width: 350px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(63, 59, 59);
+    border-radius: 50px;
+    border-bottom: 2px solid rgb(187, 56, 56);
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+#project h1:hover {
+    background-color: rgb(194, 66, 91);
+    color: white;
+    transition: 0.5s;
+}
+
+#project h1>i {
+    padding-left: 15px;
+    font-weight: 500;
+    color: rgb(53, 48, 48);
+}
+
+#project h1>i:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+#imgs {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60%;
+    margin: 10px 0;
+    overflow: hidden;
+
+
+
+}
+
+#imgs img {
+
+    cursor: pointer;
+    height: 170px;
+    width: 100%;
+    padding: 0 40px;
+    filter: grayscale(2);
+    transition: all ease 0.3s;
+
+
+
+
+}
+
+#imgs img:hover {
+    scale: 1.15;
+    filter: grayscale(0);
+
+
+}
